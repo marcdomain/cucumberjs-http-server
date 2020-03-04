@@ -1,0 +1,28 @@
+{
+  "name": "cucumberjs-server-test",
+  "version": "1.0.2",
+  "description": "start server, parse CLI arguments, run cucumber test, and stop server after test is done",
+  "main": "index.js",
+  "bin": {
+    "cucumberjs-server-test": "bin/cucumberjs-server-test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "selenium webdriver",
+    "cucumber",
+    "end-to-end"
+  ],
+  "author": "Marcus Chukwuoma <marcus2cu@gmail.com> (https://github.com/marcdomain)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcdomain/cucumberjs-server-test.git"
+  },
+  "dependencies": {
+    "yargs": "15.1.0",
+    "cucumber": "6.0.5",
+    "start-server-and-test": "1.10.8"
+  }
+}
